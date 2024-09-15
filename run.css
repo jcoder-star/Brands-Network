@@ -1,0 +1,106 @@
+nav {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    position: sticky;
+    top: 0;
+    height: 130px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0.5);
+    margin-bottom: 80px;
+}
+
+nav img {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .navigation ul li {
+    list-style: none;
+    margin: 30px;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: black;
+
+    font-weight: 600;
+}
+
+nav .navigation ul li a:hover {
+    color: navy;
+    transition: 0.3 ease;
+}
+
+#run {
+    background-color: rgb(190, 185, 185);
+}
+#run h1 {
+    font-weight: 600;
+    margin-left: 30px;
+    padding: 0;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#run p {
+    margin-left: 30px;
+    padding: 0;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#run button{
+    background-color: #2c2c2c;
+margin-left: 1250px;
+margin-bottom: 20px;
+}
+/*middle*===============================*/
+
+#middle {
+    background-color: rgb(116, 112, 112);
+    justify-content: center;
+}
+
+#middle img {
+    width: 250px;
+    padding-left: 60px;
+}
+
+#middle p {
+    margin-left: 40px;
+    color: lightcoral;
+}
+
+#middle .pro-links i {
+    margin-bottom: 20px;
+    margin-left: 40px;
+
+    color: rgb(141, 6, 6);
+    font-size: 30px;
+
+}
+
+#middle .pro-links i:hover {
+
+    color: #2c2c2c;
+}
+
+/*footer===================*/
+
+#footer {
+    height: 1000%;
+    background-color: rgb(182, 36, 36);
+}
+
+#footer p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 90px;
+    color: #fff;
+}
